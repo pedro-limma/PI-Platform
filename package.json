@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@types/react": "^16.9.41",
+    "@types/react-router-dom": "^5.1.5",
+    "@types/react-scroll": "^1.5.5",
+    "react-router-dom": "^5.2.0"
+  }
+}

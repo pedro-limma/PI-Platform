@@ -1,0 +1,30 @@
+{
+  "name": "node-str",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon src/server.js",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "date-fns": "^2.14.0",
+    "dotenv": "^8.2.0",
+    "exceljs": "^4.1.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.16",
+    "rate-limiter-flexible": "^2.1.7",
+    "redis": "^3.0.2",
+    "redis-cli": "^2.0.0",
+    "tempfile": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
